@@ -279,7 +279,7 @@ Future<void> bitkiGuncelleDialog(
 
 // Hava Durumu Bilgisi Çekme ve API Fonksiyonu
 class WeatherService {
-  final String apiKey = '72a31be699345b0d53815942b0cd579e';  // OpenWeatherMap API anahtarı
+  final String apiKey = '/*YOUR API KEY*/';  // OpenWeatherMap API anahtarı
 
   Future<Map<String, dynamic>> fetchWeather(String city) async {
     final response = await http.get(
